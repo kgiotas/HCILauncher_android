@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#C7C8D8">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Οι επαφές μου"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"/>
+
+
+    <TextView
+        android:text="Δε βρέθηκαν επαφές.\n Για να προσθέσετε\nεπαφές πατήστε"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:gravity="center_vertical"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/add_contact_noContact"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_add_black_24dp"
+        />
+
+</LinearLayout>
+</layout>

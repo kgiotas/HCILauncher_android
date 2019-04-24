@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C7C8D8"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Τα στοιχεία μου"
+                android:textSize="35sp"
+                android:id="@+id/identity_title"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"/>
+
+<gr.auebhci.hcilauncher.Views.CustomScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/identity_scroll_view"
+    android:fillViewport="true">
+
+    <RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C7C8D8"    android:weightSum="1">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="ΟΝΟΜΑ"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/onoma_txt"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+
+         />
+    <TextView
+        android:text="ΓΙΩΡΓΟΣ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_txt"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textSize="24sp"
+        android:layout_below="@+id/onoma_txt"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="ΠΑΠΑΔΟΠΟΥΛΟΣ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/surname_txt"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:gravity="center"
+        android:layout_below="@+id/epitheto_txt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="ΔΙΕΥΘΥΝΣΗ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birthDate_txt"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:id="@+id/dieuthinsi_txt" />
+
+    <TextView
+        android:text="ΣΜΥΡΝΗΣ 9Α"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textSize="24sp"
+        android:id="@+id/address_txt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/dieuthinsi_txt" />
+
+    <TextView
+        android:text="ΕΠΙΘΕΤΟ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/epitheto_txt"
+        android:gravity="center"
+        android:layout_marginTop="34dp"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/name_txt"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="ΑΡΙΘΜΟΣ ΔΕΛΤΙΟΥ ΤΑΥΤΟΤΗΤΑΣ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adt_txt"
+            android:gravity="center"
+            android:layout_marginTop="34dp"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/address_txt"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="AH 4285268"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="24sp"
+            android:id="@+id/identityNumber_txt"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/adt_txt" />
+
+        <TextView
+            android:text="ΑΜΚΑ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/amka_txt"
+            android:gravity="center"
+            android:layout_marginTop="34dp"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/identityNumber_txt"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="270839773245"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="24sp"
+            android:id="@+id/amkaNumber_txt"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/amka_txt" />
+        <TextView
+            android:text="ΑΦΜ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/afm_txt"
+            android:gravity="center"
+            android:layout_marginTop="34dp"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/amkaNumber_txt"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="21323141242112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="24sp"
+            android:id="@+id/afmNumber_txt"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/afm_txt" />
+
+        <TextView
+            android:text="ΗΜΕΡΟΜΗΝΙΑ ΓΕΝΝΗΣΗΣ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/birthday_txt"
+            android:gravity="center"
+            android:layout_marginTop="34dp"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/surname_txt"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="27/08/1939"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textSize="24sp"
+            android:id="@+id/birthDate_txt"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/birthday_txt" />
+
+    </RelativeLayout>
+
+</gr.auebhci.hcilauncher.Views.CustomScrollView>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/arrowup"
+            android:src="@drawable/ic_arrow_upward_black_24dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_arrow_downward_black_24dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/arrowdown"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</layout>

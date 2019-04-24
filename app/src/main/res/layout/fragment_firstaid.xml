@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Πρώτες Βοήθειες"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="18dp"
+
+        android:paddingBottom="3dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/firstaid_lv"/>
+</LinearLayout>
+</layout>

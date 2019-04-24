@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_dialer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        tools:context="gr.auebhci.hcilauncher.fragments.DialerFragment">
+
+        <GridLayout
+            android:background="#C7C8D8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="6"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:layout_columnSpan="3"
+                android:layout_gravity="fill"
+                android:layout_marginTop="0dp"
+                android:maxLines="1"
+                android:layout_rowSpan="1"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="36dp"
+                android:hint="Εισάγετε αριθμό"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dialNumberTV" />
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="1"
+                android:id="@+id/button_dialer_1"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="2"
+                android:id="@+id/button_dialer_2"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="3"
+                android:id="@+id/button_dialer_3"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="4"
+                android:id="@+id/button_dialer_4"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="5"
+                android:id="@+id/button_dialer_5"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="6"
+                android:id="@+id/button_dialer_6"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="7"
+                android:id="@+id/button_dialer_7"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="8"
+                android:id="@+id/button_dialer_8"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="9"
+                android:id="@+id/button_dialer_9"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="*"
+                android:id="@+id/button_dialer_ast"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="0"
+                android:id="@+id/button_dialer_0"/>
+
+            <Button
+                android:layout_margin="2dp"
+                android:background="#491CFF"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="1"
+                android:textColor="@color/textColor"
+                android:textSize="72dp"
+                android:text="#"
+                android:id="@+id/button_dialer_diesi"/>
+
+            <ImageButton
+                android:layout_margin="2dp"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_width="116dp"
+                android:layout_height="72dp"
+                android:src="@drawable/call"
+                android:id="@+id/callButton" />
+
+            <ImageButton
+                android:layout_margin="2dp"
+                android:layout_row="5"
+                android:layout_column="2"
+                android:layout_gravity="fill"
+                android:layout_width="116dp"
+                android:layout_height="72dp"
+                android:src="@drawable/backspace_icon"
+                android:id="@+id/button_dialer_backspace" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="0"
+                android:layout_row="0" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="1"
+                android:layout_row="0" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:layout_row="0" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="0"
+                android:layout_row="1" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="1"
+                android:layout_row="1" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:layout_row="1" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="0"
+                android:layout_row="2" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="1"
+                android:layout_row="2" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:layout_row="2" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="0"
+                android:layout_row="3" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="1"
+                android:layout_row="3" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:layout_row="3" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="0"
+                android:layout_row="4" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="1"
+                android:layout_row="4" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:layout_row="4" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="0"
+                android:layout_row="5" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="1"
+                android:layout_row="5" />
+
+            <Space
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_column="2"
+                android:layout_row="5" />
+        </GridLayout>
+    </RelativeLayout>
+</layout>

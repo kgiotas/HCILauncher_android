@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout     xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:background="#C7C8D8">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Οι επαφές μου"
+
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@drawable/textview_border"
+        android:layout_height="wrap_content"
+        android:text="Προσθήκη επαφής"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contacts_lv">
+
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:id="@+id/add_contact_contacts_creen"
+        android:background="?android:attr/selectableItemBackground"
+     />
+    </FrameLayout>
+    </layout>

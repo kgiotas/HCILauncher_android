@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="'Χάθηκα'"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="4dp"
+        />
+    <TextView
+
+        android:paddingTop="15dp"
+        android:paddingLeft="9dp"
+        android:text="Εισάγεται την διεύθυνσή σας:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/lost_dialog_et"
+        android:hint="28 oktovriou athens" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:id="@+id/lost_dialog_error_tv"
+        android:textColor="#ff0000"/>
+
+    <TextView
+
+        android:paddingTop="15dp"
+        android:paddingLeft="9dp"
+        android:text="Εισάγεται το τηλέφωνο έκτακτης ανάγκης:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="6981234567"
+        android:ems="10"
+        android:id="@+id/lost_phone_dialog"
+        />
+
+</LinearLayout>
+    </layout>

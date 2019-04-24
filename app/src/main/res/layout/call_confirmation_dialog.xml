@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:background="#b4b4b4"
+    android:weightSum="1" android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Κλήση"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Κλήση"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:id="@+id/contacts_call_label"
+        android:paddingTop="5dp"
+        android:paddingBottom="3dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OXI"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/button_call_no"
+           />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAI"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/button_call_yes"
+            android:layout_alignBaseline="@+id/button_call_no"
+            android:layout_alignBottom="@+id/button_call_no"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7C8D8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:id="@+id/dial_tv"
+                android:text="ΚΛΗΣΗ"
+                android:textSize="30sp"
+                android:layout_below="@+id/dial_icon"
+                 />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/dial_icon"
+
+                android:id="@+id/dial_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignStart="@+id/dial_tv"
+                android:layout_alignEnd="@+id/dial_tv"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/contacts_button"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ΕΠΑΦΕΣ"
+                android:id="@+id/contacts_tv"
+                android:textSize="30sp"
+                android:layout_below="@+id/contacts_icon"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/contracts_icon"
+                android:id="@+id/contacts_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignEnd="@+id/contacts_tv"
+                android:layout_alignStart="@+id/contacts_tv" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ΧΑΘΗΚΑ"
+                android:id="@+id/lost_icon_tv"
+                android:textSize="30sp"
+                android:layout_below="@+id/lost_icon_iv"
+                 />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lost_icon"
+                android:id="@+id/lost_icon_iv"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignEnd="@+id/lost_icon_tv"
+                android:layout_alignStart="@+id/lost_icon_tv" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="0.87">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ΤΑΥΤΟΤΗΤΑ"
+                android:textSize="30sp"
+                android:maxLines="1"
+                android:id="@+id/identity_icon_textview"
+                android:layout_below="@+id/identity_icon_icon"
+               />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/information_icon"
+                android:id="@+id/identity_icon_icon"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/identity_icon_textview"
+                android:layout_alignStart="@id/identity_icon_textview"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="ΠΡΩΤΕΣ ΒΟΗΘΕΙΕΣ"
+                android:id="@+id/firstaid_mtv"
+                android:textSize="30sp"
+                android:layout_below="@+id/firstaid_icon_iv"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sos_icon"
+                android:id="@+id/firstaid_icon_iv"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignEnd="@+id/firstaid_mtv"
+                android:layout_alignStart="@+id/firstaid_mtv" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingBottom="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/main_settings_button"
+            android:src="@drawable/ic_settings_white_24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingTop="25dp">
+            <Button
+                android:layout_width="140dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/actual_call_button"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="140dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_height="150dp"
+                android:layout_marginEnd="21dp"
+                android:id="@+id/actual_contacts_button"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingTop="25dp">
+                <Button
+                    android:layout_width="140dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="150dp"
+                    android:id="@+id/actual_lost_button"
+                    android:layout_marginStart="9dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="180dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:layout_height="150dp"
+                    android:id="@+id/actual_identity_button"
+                    android:layout_marginEnd="9dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:paddingTop="25dp">
+
+                <Button
+                    android:layout_width="290dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:id="@+id/actual_faid_button"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

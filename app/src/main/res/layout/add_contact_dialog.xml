@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="#b1b1ba">
+
+    <TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Προσθήκη επαφής"
+    android:textSize="28sp"
+        android:layout_marginTop="25dp"
+    android:textAlignment="center"
+    android:textStyle="normal|bold"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"/>
+
+    <TextView
+        android:text="Ονοματεπώνυμο"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+
+        android:textSize="25dp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:id="@+id/add_contact_name" />
+
+    <TextView
+        android:text="Αριθμός"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="normal|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:id="@+id/add_contact_phone"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:text="ΑΠΟΘΗΚΕΥΣΗ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_save_cont"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"/>
+        <Button
+            android:text="ΑΚΥΡΩΣΗ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but_cancel_save_cont"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.5"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
