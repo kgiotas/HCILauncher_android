@@ -4,6 +4,6 @@ An open source, launcher app created for people with viewing disabilities as a p
 
 # Screenshots
 
-[App screenshots](https://raw.githubusercontent.com/kgiotas/HCILauncher_android/master/screenshots.jpeg?token=ACXGE46J6AINBTGGTESDVTS4YDHDW)
+![App screenshots](https://raw.githubusercontent.com/kgiotas/HCILauncher_android/master/screenshots.jpeg?token=ACXGE46J6AINBTGGTESDVTS4YDHDW)
 
 Copyright Ⓒ 2019 Giotas Konstantinos
